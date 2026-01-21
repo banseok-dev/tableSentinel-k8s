@@ -1,8 +1,12 @@
-# tableSentinel k8s project
+<div align="left">
+  <img src="assets/CICD_diagram.png" alt="tableSentinel CI/CD" width="600">
+</div>
 
-## 무슨 프로젝트인가요?
-tableSentinel 프론트엔드와 백엔드를 k8s로 배포하는 프로젝트입니다
+# tableSentinel k8s CI/CD Project
+tableSentinel CI/CD 프로젝트입니다.
+Githuc Actions 
 
-## 필요요소
- - argoCD
- - k8s
+## 구성요소
+ - argoCD - Local Infra or Cloud(ex. AWS EKS)
+ - k8s - Local Infra or Cloud(ex. AWS EKS)
+ - Github Actions
